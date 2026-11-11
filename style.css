@@ -5,8 +5,8 @@ body {
   font-family: sans-serif;
   margin: 24px;
   /* งาน 1: เปลี่ยนสีพื้นหลังและสีตัวอักษรของหน้าเว็บ */
-  background-color: white;
-  color: black;
+  background-color: rgb(212, 222, 231);
+  color: rgb(16, 16, 19);
 }
 
 /* กล่องที่ครอบการ์ดทั้งหมด จัดเรียงเป็นแนวนอน */
@@ -18,22 +18,30 @@ body {
 
 .card {
   /* งาน 2: ตกแต่งการ์ด เช่น border, border-radius, padding, background-color */
-  border: 1px solid gray;
-  padding: 8px;
+  box-sizing: border-box;
+  background-color: rgb(186, 191, 204);
+  border: 1px solid rgb(186, 191, 204);
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(174, 179, 192);
 }
 
 .card-name {
   /* งาน 3: ตกแต่งชื่อในการ์ด เช่น color, font-size */
+  color: rgb(26, 26, 34);
+  font-size: 24px;
 }
 
 button {
   /* งานเสริม: ตกแต่งปุ่ม */
   margin-top: 16px;
+
 }
 
 /* โหมดมืด: script.js จะเพิ่ม class "dark" ให้ body */
 body.dark {
   /* งานเสริม: กำหนดสีของโหมดมืด */
-  background-color: #222222;
-  color: white;
+  background-color: #07070a;
+  color: rgb(216, 220, 230);
 }
